@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Открой глаза</string>
+    <string name="action_settings">настройки</string>
+    <string name="contact_us">Свяжитесь с нами</string>
+    <string name="app_info">заявление Информация</string>
+
+    <string name="ok">OK</string>
+    <string name="permission_camera_rationale">Access to the camera is needed for detection</string>
+    <string name="no_camera_permission">This application cannot run because it does not have the camera permission.  The application will now exit.</string>
+    <string name="low_storage_error">OpenEyes dependencies cannot be downloaded due to low device storage</string>
+
+    <string name="apply_msg">Изменения были применены</string>
+    <string name="intro_msg">Когда вы закрываете глаза , вы будете слышать звуковые сигналы</string>
+    <string name="app_description">OpenEyes является приложением , которая предупреждает сонливость во время вождения или учебы</string>
+
+
+    <string name="apply">подать заявление</string>
+    <string name="close">Закрыть</string>
+    <string name="sensitivity">чувствительность</string>
+    <string name="alarmpoint">Опорная точка тревоги</string>
+
+</resources>
+
+

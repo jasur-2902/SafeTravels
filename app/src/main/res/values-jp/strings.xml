@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">OpenEyes</string>
+    <string name="action_settings">設定</string>
+    <string name="contact_us">コンタクト</string>
+    <string name="app_info">アプリ 情報</string>
+
+    <string name="ok">OK</string>
+    <string name="permission_camera_rationale">Access to the camera is needed for detection</string>
+    <string name="no_camera_permission">This application cannot run because it does not have the camera permission.  The application will now exit.</string>
+    <string name="low_storage_error">OpenEyes dependencies cannot be downloaded due to low device storage</string>
+
+    <string name="apply_msg">変更が適用されています</string>
+    <string name="intro_msg">あなたの目を閉じると、あなたはビープ音が聞こえます</string>
+    <string name="app_description">OpenEyesは、運転や勉強時に眠気を警告するアプリケーションです Etc.</string>
+
+
+    <string name="apply">適用します</string>
+    <string name="close">閉じる</string>
+    <string name="sensitivity">感度</string>
+    <string name="alarmpoint">警報の基準点</string>
+
+</resources>
+
+

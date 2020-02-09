@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f7f7f7"
+    tools:context=".MainActivity">
+
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:theme="@style/AppTheme.AppBarOverlay"
+        app:elevation="0dp">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:popupTheme="@style/AppTheme.PopupOverlay"
+            app:theme="@style/AppTheme.Toolbar">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginBottom="8dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/calibri"
+                        android:text="Profile"
+                        android:textColor="#000000"
+                        android:textSize="24sp"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:layout_width="36dp"
+                        android:layout_height="36dp"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentEnd="true"
+                        android:src="@drawable/user_img" />
+
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="16dp"
+                    android:orientation="horizontal"
+                    android:weightSum="100">
+
+                    <EditText
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="80"
+                        android:background="@drawable/gray_rounded_shape"
+                        android:drawableLeft="@drawable/ic_search_gray_24dp"
+                        android:drawablePadding="8dp"
+                        android:fontFamily="@font/calibri"
+                        android:hint="Search Article"
+                        android:padding="12dp"
+                        android:textColorHint="#9ea1b0" />
+
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_height="28dp"
+                        android:layout_gravity="center"
+                        android:layout_weight="20"
+                        android:src="@drawable/filter_icon" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+        </android.support.v7.widget.Toolbar>
+
+    </android.support.design.widget.AppBarLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <HorizontalScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="473dp"
+                    android:scrollbars="none">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:padding="8dp">
+
+                        <android.support.v7.widget.CardView
+                            android:layout_width="390dp"
+                            android:layout_height="wrap_content"
+                            app:cardCornerRadius="4dp"
+                            app:cardElevation="4dp"
+                            app:cardUseCompatPadding="true"
+                            app:contentPadding="16dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginBottom="8dp"
+                                    android:orientation="vertical">
+
+                                    <EditText
+                                        android:id="@+id/nameField"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:background="@drawable/gray_rounded_shape"
+                                        android:drawablePadding="8dp"
+                                        android:fontFamily="@font/calibri"
+                                        android:hint="Name"
+                                        android:padding="12dp"
+                                        android:textColorHint="#9ea1b0" />
+
+                                    <EditText
+                                        android:id="@+id/amount"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="15dp"
+                                        android:background="@drawable/gray_rounded_shape"
+                                        android:drawablePadding="8dp"
+                                        android:fontFamily="@font/calibri"
+                                        android:hint="Weight in pounds"
+                                        android:padding="12dp"
+                                        android:textColorHint="#9ea1b0" />
+
+                                    <EditText
+                                        android:id="@+id/height"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="15dp"
+                                        android:background="@drawable/gray_rounded_shape"
+                                        android:drawablePadding="8dp"
+                                        android:fontFamily="@font/calibri"
+                                        android:hint="Height in inchs"
+                                        android:padding="12dp"
+                                        android:textColorHint="#9ea1b0" />
+
+                                    <RadioGroup
+                                        android:id="@+id/gender"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:layout_marginTop="15dp"
+                                        android:orientation="horizontal">
+
+                                        <RadioButton
+                                            android:id="@+id/radioButton2"
+                                            android:layout_width="0dp"
+                                            android:layout_height="wrap_content"
+                                            android:layout_weight="1"
+                                            android:text="Male" />
+
+                                        <RadioButton
+                                            android:id="@+id/radioButton"
+                                            android:layout_width="0dp"
+                                            android:layout_height="wrap_content"
+                                            android:layout_weight="1"
+                                            android:text="Female" />
+                                    </RadioGroup>
+                                </LinearLayout>
+
+                                <RelativeLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="100">
+
+                                    <TextView
+                                        android:id="@+id/submit"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignParentRight="true"
+                                        android:background="@drawable/blue_rounded_shape"
+                                        android:fontFamily="@font/calibri"
+                                        android:padding="8dp"
+                                        android:text="Submit Profile"
+                                        android:textColor="#FFFFFF"
+                                        android:textSize="16sp" />
+
+                                </RelativeLayout>
+
+                            </LinearLayout>
+
+
+                        </android.support.v7.widget.CardView>
+
+                    </LinearLayout>
+
+                </HorizontalScrollView>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:background="#FFFFFF"
+                    android:orientation="horizontal"
+                    android:paddingLeft="8dp"
+                    android:paddingTop="16dp"
+                    android:paddingRight="8dp"
+                    android:paddingBottom="16dp"
+                    android:weightSum="100">
+
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="25"
+                        android:src="@drawable/ic_bookmark_border_black_24dp" />
+
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="25"
+                        android:src="@drawable/ic_person_add_black_24dp" />
+
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="25"
+                        android:src="@drawable/ic_control_point_black_24dp" />
+
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="25"
+                        android:src="@drawable/ic_apps_black_24dp" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+</android.support.design.widget.CoordinatorLayout>

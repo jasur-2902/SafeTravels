@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Apri gli occhi</string>
+    <string name="action_settings">impostazioni</string>
+    <string name="contact_us">Contattaci</string>
+    <string name="app_info">App informazioni</string>
+
+    <string name="ok">OK</string>
+    <string name="permission_camera_rationale">Access to the camera is needed for detection</string>
+    <string name="no_camera_permission">This application cannot run because it does not have the camera permission.  The application will now exit.</string>
+    <string name="low_storage_error">OpenEyes dependencies cannot be downloaded due to low device storage</string>
+
+    <string name="apply_msg">Sono state applicate le modifiche</string>
+    <string name="intro_msg">Quando si chiudono gli occhi , si sente segnali acustici</string>
+    <string name="app_description">App allarme Sonnolenza</string>
+
+
+    <string name="apply">Applicare</string>
+    <string name="close">vicino</string>
+    <string name="sensitivity">sensibilità</string>
+    <string name="alarmpoint">Punto di riferimento di allarme</string>
+
+</resources>
+
+

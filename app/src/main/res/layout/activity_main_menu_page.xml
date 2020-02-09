@@ -1,0 +1,433 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f7f7f7"
+    tools:context=".MainActivity">
+
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:theme="@style/AppTheme.AppBarOverlay"
+        app:elevation="0dp">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:popupTheme="@style/AppTheme.PopupOverlay"
+            app:theme="@style/AppTheme.Toolbar">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginBottom="8dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/calibri"
+                        android:text="Explore"
+                        android:textColor="#000000"
+                        android:textSize="24sp"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:id="@+id/icon"
+                        android:layout_width="36dp"
+                        android:layout_height="36dp"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentEnd="true"
+                        android:src="@drawable/user_img" />
+
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="16dp"
+                    android:orientation="horizontal"
+                    android:weightSum="100">
+
+                    <EditText
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="80"
+                        android:background="@drawable/gray_rounded_shape"
+                        android:drawableLeft="@drawable/ic_search_gray_24dp"
+                        android:drawablePadding="8dp"
+                        android:fontFamily="@font/calibri"
+                        android:hint="Search article..."
+                        android:padding="12dp"
+                        android:textColorHint="#9ea1b0" />
+
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_height="28dp"
+                        android:layout_gravity="center"
+                        android:layout_weight="20"
+                        android:src="@drawable/filter_icon" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+        </android.support.v7.widget.Toolbar>
+
+    </android.support.design.widget.AppBarLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <HorizontalScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:scrollbars="none">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:padding="8dp">
+
+                        <android.support.v7.widget.CardView
+                            android:layout_width="300dp"
+                            android:layout_height="wrap_content"
+                            app:cardCornerRadius="4dp"
+                            app:cardElevation="4dp"
+                            app:cardUseCompatPadding="true"
+                            app:contentPadding="16dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginBottom="8dp"
+                                    android:orientation="horizontal"
+                                    android:weightSum="100">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_weight="90"
+                                        android:fontFamily="@font/calibri"
+                                        android:text="BAC Alcohol Test"
+                                        android:textColor="#000000"
+                                        android:textSize="18sp"
+                                        android:textStyle="bold" />
+
+                                </LinearLayout>
+
+                                <ImageView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="160dp"
+                                    android:layout_marginBottom="8dp"
+                                    android:scaleType="fitCenter"
+                                    android:src="@drawable/calculator"
+                                    app:srcCompat="@drawable/calculator" />
+
+                                <RelativeLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="100">
+
+                                    <TextView
+                                        android:id="@+id/calculatorBtn"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignParentRight="true"
+                                        android:background="@drawable/blue_rounded_shape"
+                                        android:fontFamily="@font/calibri"
+                                        android:padding="8dp"
+                                        android:text="Try It Now"
+                                        android:textColor="#FFFFFF"
+                                        android:textSize="16sp" />
+
+                                </RelativeLayout>
+
+                            </LinearLayout>
+
+
+                        </android.support.v7.widget.CardView>
+
+                        <android.support.v7.widget.CardView
+                            android:layout_width="300dp"
+                            android:layout_height="wrap_content"
+                            app:cardCornerRadius="4dp"
+                            app:cardElevation="4dp"
+                            app:cardUseCompatPadding="true"
+                            app:contentPadding="16dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginBottom="8dp"
+                                    android:orientation="horizontal"
+                                    android:weightSum="100">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_weight="90"
+                                        android:fontFamily="@font/calibri"
+                                        android:text="Emergency Call Service"
+                                        android:textColor="#000000"
+                                        android:textSize="18sp"
+                                        android:textStyle="bold" />
+
+                                </LinearLayout>
+
+                                <ImageView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="160dp"
+                                    android:layout_marginBottom="8dp"
+                                    android:scaleType="fitCenter"
+                                    android:src="@drawable/emergency"
+                                    app:srcCompat="@drawable/emergency" />
+
+                                <RelativeLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="100">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignParentRight="true"
+                                        android:background="@drawable/blue_rounded_shape"
+                                        android:fontFamily="@font/calibri"
+                                        android:padding="8dp"
+                                        android:text="Call"
+                                        android:textColor="#FFFFFF"
+                                        android:textSize="16sp" />
+
+                                </RelativeLayout>
+
+                            </LinearLayout>
+
+
+                        </android.support.v7.widget.CardView>
+
+                        <android.support.v7.widget.CardView
+                            android:layout_width="300dp"
+                            android:layout_height="wrap_content"
+                            app:cardCornerRadius="4dp"
+                            app:cardElevation="4dp"
+                            app:cardUseCompatPadding="true"
+                            app:contentPadding="16dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginBottom="8dp"
+                                    android:orientation="horizontal"
+                                    android:weightSum="100">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_weight="90"
+                                        android:fontFamily="@font/calibri"
+                                        android:text="Safe Driving"
+                                        android:textColor="#000000"
+                                        android:textSize="18sp"
+                                        android:textStyle="bold" />
+
+                                </LinearLayout>
+
+                                <ImageView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="160dp"
+                                    android:layout_marginBottom="8dp"
+                                    android:scaleType="fitCenter"
+                                    android:src="@drawable/safedriving"
+                                    app:srcCompat="@drawable/safedriving" />
+
+                                <RelativeLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="100">
+
+                                    <TextView
+                                        android:id="@+id/drive_safe"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignParentRight="true"
+                                        android:background="@drawable/blue_rounded_shape"
+                                        android:fontFamily="@font/calibri"
+                                        android:padding="8dp"
+                                        android:text="Drive Safe"
+                                        android:textColor="#FFFFFF"
+                                        android:textSize="16sp" />
+
+                                </RelativeLayout>
+
+                            </LinearLayout>
+
+
+                        </android.support.v7.widget.CardView>
+
+                    </LinearLayout>
+
+                </HorizontalScrollView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginBottom="8dp"
+                    android:fontFamily="@font/calibri"
+                    android:text="Trending Articles"
+                    android:textColor="#000000"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <HorizontalScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:scrollbars="none">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="220dp"
+                            android:layout_height="110dp"
+                            android:layout_marginLeft="8dp"
+                            android:layout_marginRight="4dp"
+                            android:src="@drawable/winter"
+                            app:srcCompat="@drawable/winter"
+                            tools:srcCompat="@drawable/winter" />
+
+                        <ImageView
+                            android:layout_width="220dp"
+                            android:layout_height="110dp"
+                            android:layout_marginLeft="4dp"
+                            android:layout_marginRight="8dp"
+                            android:src="@drawable/moto" />
+
+                    </LinearLayout>
+
+                </HorizontalScrollView>
+
+                <HorizontalScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:scrollbars="none">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="220dp"
+                            android:layout_height="110dp"
+                            android:layout_marginLeft="8dp"
+                            android:layout_marginRight="4dp"
+                            android:src="@drawable/safety" />
+
+                        <ImageView
+                            android:layout_width="220dp"
+                            android:layout_height="110dp"
+                            android:layout_marginLeft="4dp"
+                            android:layout_marginRight="8dp"
+                            android:src="@drawable/boats_img" />
+
+                    </LinearLayout>
+
+                </HorizontalScrollView>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:weightSum="100"
+                    android:background="#FFFFFF"
+                    android:layout_marginTop="16dp"
+                    android:paddingTop="16dp"
+                    android:paddingBottom="16dp"
+                    android:paddingLeft="8dp"
+                    android:paddingRight="8dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="25"
+                        android:layout_gravity="center"
+                        android:src="@drawable/ic_bookmark_border_black_24dp"
+                        />
+
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="25"
+                        android:layout_gravity="center"
+                        android:src="@drawable/ic_person_add_black_24dp"
+                        />
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="25"
+                        android:layout_gravity="center"
+                        android:src="@drawable/ic_control_point_black_24dp"
+                        />
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="25"
+                        android:layout_gravity="center"
+                        android:src="@drawable/ic_apps_black_24dp"
+                        />
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+</android.support.design.widget.CoordinatorLayout>

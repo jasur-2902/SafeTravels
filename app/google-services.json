@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_id": "openeyes-4d230",
+    "project_number": "821804403632",
+    "name": "OpenEyes"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:821804403632:android:99e66c0b340257db",
+        "client_id": "android:com.socialherb.openeyes",
+        "client_type": 1,
+        "android_client_info": {
+          "package_name": "com.socialherb.openeyes",
+          "certificate_hash": []
+        }
+      },
+      "oauth_client": [],
+      "api_key": [],
+      "services": {
+        "analytics_service": {
+          "status": 2,
+          "analytics_property": {
+            "tracking_id": "UA-75808278-1"
+          }
+        },
+        "cloud_messaging_service": {
+          "status": 1,
+          "apns_config": []
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "google_signin_service": {
+          "status": 1
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "client_info": [],
+  "ARTIFACT_VERSION": "1"
+}

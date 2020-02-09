@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">OffeneAugen</string>
+    <string name="action_settings">Einstellungen</string>
+    <string name="contact_us">Kontaktiere uns</string>
+    <string name="app_info">App Info</string>
+
+    <string name="ok">OK</string>
+    <string name="permission_camera_rationale">Access to the camera is needed for detection</string>
+    <string name="no_camera_permission">This application cannot run because it does not have the camera permission.  The application will now exit.</string>
+    <string name="low_storage_error">OpenEyes dependencies cannot be downloaded due to low device storage</string>
+
+    <string name="apply_msg">Die Änderungen wurden angewendet</string>
+    <string name="intro_msg">Wenn Sie die Augen schließen , werden Sie Töne hören</string>
+    <string name="app_description">OffeneAugen ist eine Anwendung, die Schläfrigkeit alarmiert beim Fahren oder studieren. Etc.</string>
+
+    <string name="apply">anwenden</string>
+    <string name="close">schließen</string>
+    <string name="sensitivity">Empfindlichkeit</string>
+    <string name="alarmpoint">Bezugspunkt der Alarm</string>
+
+</resources>
+
+

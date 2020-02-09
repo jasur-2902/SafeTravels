@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">OpenEyes</string>
+    <string name="action_settings">instellingen</string>
+    <string name="contact_us">Neem contact met ons</string>
+    <string name="app_info">App Info</string>
+
+    <string name="ok">OK</string>
+    <string name="permission_camera_rationale">Access to the camera is needed for detection</string>
+    <string name="no_camera_permission">This application cannot run because it does not have the camera permission.  The application will now exit.</string>
+    <string name="low_storage_error">OpenEyes dependencies cannot be downloaded due to low device storage</string>
+
+    <string name="apply_msg">De wijzigingen zijn aangebracht</string>
+    <string name="intro_msg">Als je je ogen sluit , zal u een geluidssignaal hoort</string>
+    <string name="app_description">OpenEyes is een applicatie die sufheid waarschuwt tijdens het rijden of studeren</string>
+
+
+    <string name="apply">solliciteren</string>
+    <string name="close">dicht</string>
+    <string name="sensitivity">gevoeligheid</string>
+    <string name="alarmpoint">Referentiepunt van het alarm</string>
+
+</resources>
+
+

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">فتح عيون</string>
+    <string name="action_settings">إعدادات</string>
+    <string name="contact_us">اتصل بنا</string>
+    <string name="app_info">معلومات التطبيق</string>
+
+    <string name="ok">OK</string>
+    <string name="permission_camera_rationale">Access to the camera is needed for detection</string>
+    <string name="no_camera_permission">This application cannot run because it does not have the camera permission.  The application will now exit.</string>
+    <string name="low_storage_error">OpenEyes dependencies cannot be downloaded due to low device storage</string>
+
+    <string name="apply_msg"> وقد تم تطبيق التغييرات</string>
+    <string name="intro_msg">
+        عندما تغمض عينيك ، أنتتستمع الصفافير
+    </string>
+    <string name="app_description">
+        OpenEyes هو تطبيق الذي ينبهك النعاسأثناء القيادة أو الدراسة .
+    </string>
+
+
+    <string name="apply">تطبق</string>
+    <string name="close">قريب</string>
+    <string name="sensitivity">حساسية</string>
+    <string name="alarmpoint">نقطة مرجعية لل إنذار</string>
+
+</resources>
+
+

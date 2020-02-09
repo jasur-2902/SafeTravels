@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">오픈아이즈</string>
+    <string name="action_settings">눈깜빡임 감도</string>
+    <string name="contact_us">개발자 연락처</string>
+    <string name="app_info">앱정보</string>
+
+    <string name="ok">OK</string>
+    <string name="permission_camera_rationale">Access to the camera is needed for detection</string>
+    <string name="no_camera_permission">This application cannot run because it does not have the camera permission.  The application will now exit.</string>
+    <string name="low_storage_error">OpenEyes dependencies cannot be downloaded due to low device storage</string>
+
+    <string name="apply_msg">변경사항이 적용되었습니다</string>
+    <string name="intro_msg">감은 눈을 자동으로 감지하여 경보음을 냅니다</string>
+    <string name="app_description">오픈아이즈는 운전, 공부, 기타 졸음이 오는 경우, 감기는 눈을 자동으로 감지하여 경보 알람 소리를 발생시키는 어플리케이션입니다.</string>
+
+
+    <string name="apply">적용</string>
+    <string name="close">닫기</string>
+    <string name="sensitivity">눈깜빡임 감도</string>
+    <string name="alarmpoint">알람 발생 지점</string>
+
+</resources>
+
+

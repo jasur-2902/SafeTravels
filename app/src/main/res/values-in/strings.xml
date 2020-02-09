@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Mata terbuka</string>
+    <string name="action_settings">pengaturan</string>
+    <string name="contact_us">Hubungi kami</string>
+    <string name="app_info">Info aplikasi</string>
+
+    <string name="ok">OK</string>
+    <string name="permission_camera_rationale">Access to the camera is needed for detection</string>
+    <string name="no_camera_permission">This application cannot run because it does not have the camera permission.  The application will now exit.</string>
+    <string name="low_storage_error">OpenEyes dependencies cannot be downloaded due to low device storage</string>
+
+    <string name="apply_msg">Perubahan telah diterapkan</string>
+    <string name="intro_msg">Ketika Anda menutup mata Anda , Anda akan mendengar bunyi bip</string>
+    <string name="app_description">OpenEyes adalah aplikasi yang memberitahu mengantuk saat berkendara atau belajar.</string>
+
+
+    <string name="apply">menerapkan</string>
+    <string name="close">dekat</string>
+    <string name="sensitivity">kepekaan</string>
+    <string name="alarmpoint">titik referensi dari alarm</string>
+
+</resources>
+
+

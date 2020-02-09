@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Los ojos se abren</string>
+    <string name="action_settings">ajustes</string>
+    <string name="contact_us">contáctenos</string>
+    <string name="app_info">aplicación infomación</string>
+
+    <string name="ok">OK</string>
+    <string name="permission_camera_rationale">Access to the camera is needed for detection</string>
+    <string name="no_camera_permission">This application cannot run because it does not have the camera permission.  The application will now exit.</string>
+    <string name="low_storage_error">OpenEyes dependencies cannot be downloaded due to low device storage</string>
+
+    <string name="apply_msg">Se han aplicado los cambios</string>
+    <string name="intro_msg">Al cerrar los ojos , Escuchará pitidos</string>
+    <string name="app_description">OpenEyes es una aplicación que alerta a la somnolencia durante la conducción o el estudio. Etc.</string>
+
+
+    <string name="apply">aplicar</string>
+    <string name="close">cerca</string>
+    <string name="sensitivity">sensibilidad</string>
+    <string name="alarmpoint">Punto de referencia de alarma</string>
+
+</resources>
+
+

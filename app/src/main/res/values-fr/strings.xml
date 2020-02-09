@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">yeux ouverts</string>
+    <string name="action_settings">Paramètres</string>
+    <string name="contact_us">Contactez nous</string>
+    <string name="app_info">App Info</string>
+
+    <string name="ok">OK</string>
+    <string name="permission_camera_rationale">Access to the camera is needed for detection</string>
+    <string name="no_camera_permission">This application cannot run because it does not have the camera permission.  The application will now exit.</string>
+    <string name="low_storage_error">OpenEyes dependencies cannot be downloaded due to low device storage</string>
+
+    <string name="apply_msg">Les changements ont été appliqués</string>
+    <string name="intro_msg">Lorsque vous fermez les yeux , vous entendrez des bips</string>
+    <string name="app_description">ouvre tes yeux est une application qui alerte la somnolence au volant</string>
+
+    <string name="apply">appliquer</string>
+    <string name="close">Fermer</string>
+    <string name="sensitivity">sensibilité</string>
+    <string name="alarmpoint">point</string>
+
+</resources>
+
+

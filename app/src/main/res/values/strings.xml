@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">OpenEyes</string>
+    <string name="action_settings">Settings</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="app_info">App Info</string>
+
+    <string name="ok">OK</string>
+    <string name="permission_camera_rationale">Access to the camera is needed for detection</string>
+    <string name="no_camera_permission">This application cannot run because it does not have the camera permission.  The application will now exit.</string>
+    <string name="low_storage_error">OpenEyes dependencies cannot be downloaded due to low device storage</string>
+
+    <string name="apply_msg"> The changes have been applied</string>
+    <string name="intro_msg"> When you close your eyes, You will hear beeps</string>
+    <string name="app_description">OpenEyes is a Application that alerts drowsiness when driving or studying. Etc.</string>
+
+
+    <string name="apply">APPLY</string>
+    <string name="close">CLOSE</string>
+    <string name="sensitivity">Sensitivity</string>
+    <string name="alarmpoint">Reference point of alarm</string>
+
+
+
+    <string-array name="numberOfDrinks">
+        <item>Type of Alcohol</item>
+        <item>Beer</item>
+        <item>Wine</item>
+        <item>Liquor</item>
+
+    </string-array>
+
+
+
+
+</resources>
+
+
