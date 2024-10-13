@@ -7,10 +7,10 @@ We wanted to create a user-friendly app utilizing Machine Learning/AI
 Safe Travels monitors eye movement in real-time, alerting the user with a noise if prolonged blinking (which can indicate drowsiness) is detected. In case of emergency, the app can also trigger a call for help. Additionally, it includes a built-in Blood Alcohol Content (BAC) calculator to help users assess their sobriety levels before driving.
 
 ## Team
-1 - Jasur Shukurov 
-2 - Giuseppe D'Ambrosio 
-3 - Aaqil Khoja 
-4 - Nikhil Gottipaty 
+1. Jasur Shukurov
+2.  Giuseppe D'Ambrosio 
+3.  Aaqil Khoja 
+4.  Nikhil Gottipaty 
 
 ## Screenshots 
 
